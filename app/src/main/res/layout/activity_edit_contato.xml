@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/inputFone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/inputEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereço"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/inputCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fdc180"
+        android:text="Salvar" />
+
+
+</LinearLayout>
